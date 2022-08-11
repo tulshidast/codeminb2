@@ -34,7 +34,7 @@ public class HowToTakeScreenShotOnFailure {
 
 		driver.get("https://www.youtube.com/");
 		driver.manage().window().maximize();
-		Assert.assertTrue(false);
+		Assert.assertTrue(true);
 	}
 
 	@AfterMethod
